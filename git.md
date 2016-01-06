@@ -47,14 +47,12 @@
 >change branch
 
 3. how to merge
-
     ```
     git checkout master
     git merge <branch_name>
     ```
 
 4. merge conflict
-
 >occured when you commited both master and other branch
     * git marking
         ```
