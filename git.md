@@ -40,7 +40,8 @@
 
 1. git branch <branch_name>
 >check, make branch
-
+    * option
+        * -d <branch_name> : delete branch
 2. git checkout <branch_name>
 >change branch
 
