@@ -50,4 +50,14 @@
 git checkout master
 git merge <branch_name>
 ```
-
+4. merge conflict
+>occured when you commited both master and other branch
+    * git marking
+    ```
+    <<<<<<< HEAD
+    master version of line
+    =======
+    fencing version of line
+    >>>>>>> fencing
+    ```
+    * you must delete one
