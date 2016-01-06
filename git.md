@@ -2,9 +2,9 @@
 
 ### git workflows
 
-![image of git work space](./git_workingspace.png)
+![image of git work space](images/git_workingspace.png)
 
-### git commands
+### basic commands
 
 1. git init
 
@@ -15,6 +15,26 @@
 
 4. git commit -m <comment>
 
-5. git log
+5. git add <filename>
+
+6. git log
     * option
         * --oneline
+### Backtracking
+
+1. git show HEAD
+>HEAD: most recently commit
+>output:git log commands for HEAD
+
+2. git checkout HEAD <filename>
+>discard the change in working directory, last commited file restored
+
+3. git reset HEAD <filename>
+>discard the change in staging directory, last commited file restored 
+    * git reset SHA
+        * first 7 characters in SHA needed
+        * to earn SHA, `git log --oneline`
+
+### Branching
+![git branching](images/git_branch.png)
+1. git branch
