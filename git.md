@@ -68,20 +68,21 @@
 
 ### work together
 
-1.work flow
+####work flow
 >1. Fetch and merge changes from the remote
 >2. Create a branch to work on a new project feature
 >3. Develop the feature on your branch and commit your work
 >4. Fetch and merge from the remote again (in case new commits were made while you were working)
 >5. Push your branch up to the remote for review
-2. git clone <remote_location> <clone_name>
 
-3. git remote
+1. git clone <remote_location> <clone_name>
+
+2. git remote
 
     * option
         * -v : show all remotes
 
-4. git fetch
+3. git fetch
 >fetch is bring from remote, not merging current branch but make origin/master branch and fetched file is in the branch.
 
 
