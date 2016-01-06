@@ -37,11 +37,12 @@
 
 ### Branching
 ![git branching](images/git_branch.png)
+
 1. git branch <branch_name>
-> check, make branch
+>check, make branch
 
 2. git checkout <branch_name>
-> change branch
+>change branch
 
 3. how to merge
 
