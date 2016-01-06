@@ -16,5 +16,5 @@
 4. git commit -m <comment>
 
 5. git log
-* option
-    * --oneline
+    * option
+        * --oneline
