@@ -20,6 +20,7 @@
 6. git log
     * option
         * --oneline
+
 ### Backtracking
 
 1. git show HEAD
