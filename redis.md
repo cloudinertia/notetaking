@@ -31,6 +31,7 @@ set count x
 
 
 1.list
+
     * RPUSH,LPUSH key value
     * LRANGE key start end
         * 0 -1 : show all
