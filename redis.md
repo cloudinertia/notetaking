@@ -20,9 +20,9 @@ set count x
 
 ### life time of key
 
-1. EXPIRE key seconds
+#### EXPIRE key seconds
 
-2. TTL key 
+#### TTL key 
 > time to live
 
     * -1 : never die
@@ -30,7 +30,7 @@ set count x
 
 ### data structures
 
-1.list
+#### list
     * RPUSH,LPUSH key value
     * LRANGE key start end
     * 0 -1 : show all
@@ -38,18 +38,18 @@ set count x
     * LLEN key
     * LPOP,RPOP key
 
-2. set
+#### set
     * SADD key value
     * SREM key value: removes value
     * SISMEMBER key value
     * SMEMBERS key : show all keys in the set
     * SUNION key1 key2 ... : keys of combined set (duplication key only show one time)
 
-3. sorted set
+#### sorted set
     * ZADD key value
     * ZRANGE key start end 
 
-4. hashes
+#### hashes
     * HSET hashname key value
     * HGETALL hashname
     * HMSET hashname key1 value1 key2 value2 ...
