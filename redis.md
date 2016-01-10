@@ -30,12 +30,11 @@ set count x
 
 ### data structures
 
-
 1.list
     * RPUSH,LPUSH key value
     * LRANGE key start end
-        * 0 -1 : show all
-        * 0 1 : index 0 to 1
+    * 0 -1 : show all
+    * 0 1 : index 0 to 1
     * LLEN key
     * LPOP,RPOP key
 2. set
