@@ -24,6 +24,7 @@ set count x
 
 2. TTL key 
 > time to live
+
     * -1 : never die
     * -2 : not exist
 
@@ -31,7 +32,6 @@ set count x
 
 
 1.list
-
     * RPUSH,LPUSH key value
     * LRANGE key start end
         * 0 -1 : show all
