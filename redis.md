@@ -31,6 +31,7 @@ set count x
 ### data structures
 
 #### list
+
     * RPUSH,LPUSH key value
     * LRANGE key start end
     * 0 -1 : show all
@@ -39,6 +40,7 @@ set count x
     * LPOP,RPOP key
 
 #### set
+
     * SADD key value
     * SREM key value: removes value
     * SISMEMBER key value
@@ -46,10 +48,12 @@ set count x
     * SUNION key1 key2 ... : keys of combined set (duplication key only show one time)
 
 #### sorted set
+
     * ZADD key value
     * ZRANGE key start end 
 
 #### hashes
+
     * HSET hashname key value
     * HGETALL hashname
     * HMSET hashname key1 value1 key2 value2 ...
