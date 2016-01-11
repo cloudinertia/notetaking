@@ -25,8 +25,8 @@ set count x
 #### TTL key 
 > time to live
 
-    * -1 : never die
-    * -2 : not exist
+* -1 : never die
+* -2 : not exist
 
 ### data structures
 
@@ -63,4 +63,4 @@ set count x
 
 more hash commands: [here](http://redis.io/commands#hash)
 
-
+### redis documentation [here](http://redis.io/documentation)
