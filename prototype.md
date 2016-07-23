@@ -43,7 +43,7 @@ python을 통해 간단히 기존 언어의 oop를 복습해봤다. 여기서 �
 
 만약 brother뿐 아니라, sister, mother,father등을 만들려면 계속 subclass를 만들어야 한다. 게다가 특정 object의 속성(property나 method)등을 바꾸고 싶으면, 애초에 class를 다시 만들어서 재할당 해야 하는 단점이 있다.
 
-**즉 class based oop에서는 객체의 특징이 바뀌면 class부터 바꿔줘야 하고, 설상 가상으로 그 특징이 바뀌면 안되는 다른 객체를 위해 subclass를 각각 준비해줘야 하는 단점이 있다. **
+**즉 class based oop에서는 객체의 특징을 바꾸려면 class전체를 다시 뜯어 고친다음, 기존의 객체는 무시하고 다시 새로운 겍체를 만들어줘야 하는 불편함이 있다.**
 
 #### 그렇다면 prototype chaining에서는 이것을 어떻게 개선하는가
 
