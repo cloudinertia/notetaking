@@ -98,7 +98,7 @@ javascript에서 new 연산자로 object를 만드는 순간, object는 함수�
 
 >youngtaek.introduce() 
 => youngtaek에 introduce가 있는가?(no)
-=> 그렇다면 prototype link가 가르키고 있는 object에는 intruduce가 있는가? (yes)
+=> 그렇다면 prototype link가 가르키고 있는 object에는 introduce가 있는가? (yes)
 =>  해당 value를 실행.
 			
 위와 같은 과정을 **prototype chaining** 이라고 한다. 모든 javascript object는 object.prototype를 가지는데 해당값은 null이다. 즉, **prototype chaining**은 object.prototype이 나올 때 까지 계속 해당 key값이 있는지 찾아가는 loop라고 생각하면 된다. 이 과정을 이해하기 위해 예제 코드를 하나 더 가져와본다.
