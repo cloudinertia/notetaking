@@ -1,7 +1,7 @@
 
 
 
-# Javascript의 this와 interit
+# Javascript의 this와 inherit
 
 written by 오영택
 
