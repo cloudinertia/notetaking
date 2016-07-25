@@ -94,7 +94,7 @@ i am brother
 
 javascript에서 new 연산자로 object를 만드는 순간, object는 함수의 prototype를 가리키는 **prototype link**를 생성한다. 즉, 위의 예에서 youngtaek 이라는 object는 Me라는 함수의 prototype를 항상 주시하고 있다.
 
-자 이제, youngtaek.introduce() 라고 입력했을 때에, javascript 안에서 어떠한 일이 일어나고 있는지 살펴보자. 우선, javascript는 youngtaek이라는 object가 introduce라는 key를 가지고 있는지 확인할 것이다. 주지하다시피, youngtake은 name, age 라는 key만 가지고 있다. 그럴 경우 javascript는 **prototype link**를 참조하여 생성했던 함수의 **prototype object**에 introduce라는 key가 있는지 확인한다. 위의 예제에선 비록 생성 후에 추가하였지만, 분명히 Me prototype가 introduce라는 key를 가지고 있기 때문에 해당하는 함수를 실행할 수 있었다. 정리하자면 아래와 같은 과정을 거친 것이다.
+자 이제, youngtaek.introduce() 라고 입력했을 때에, javascript 안에서 어떠한 일이 일어나고 있는지 살펴보자. 우선, javascript는 youngtaek이라는 object가 introduce라는 key를 가지고 있는지 확인할 것이다. 주지하다시피, youngtaek은 name, age 라는 key만 가지고 있다. 그럴 경우 javascript는 **prototype link**를 참조하여 생성했던 함수의 **prototype object**에 introduce라는 key가 있는지 확인한다. 위의 예제에선 비록 생성 후에 추가하였지만, 분명히 Me prototype가 introduce라는 key를 가지고 있기 때문에 해당하는 함수를 실행할 수 있었다. 정리하자면 아래와 같은 과정을 거친 것이다.
 
 >youngtaek.introduce() 
 => youngtaek에 introduce가 있는가?(no)
